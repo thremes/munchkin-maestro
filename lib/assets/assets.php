@@ -17,9 +17,8 @@ final class MMaestro_Assets
         //* Style Trump
         add_action( 'wp_enqueue_scripts', array( $this, 'style_trump' ), 99 );
 
-        //* Register default background/headers
+        //* Register default headers
         $this->default_headers();
-        add_filter( 'hybrid_default_backgrounds', array( $this, 'default_backgrounds' ), 11 );
     }
 
     /**
@@ -70,36 +69,17 @@ final class MMaestro_Assets
     function default_headers()
     {
         register_default_headers( array(
-            'sample-01' => array(
-                'url'           => '%2$s/lib/assets/images/headers/sample.png',
-                'thumbnail_url' => '%2$s/lib/assets/images/headers/sample-thumb.png',
-                'description'   => __( 'Sample One', 'mmaestro' )
+            'header-01' => array(
+                'url'           => '%2$s/lib/assets/images/headers/header-01.jpg',
+                'thumbnail_url' => '%2$s/lib/assets/images/headers/header-01-thumb.jpg',
+                'description'   => __( 'The River', 'mmaestro' )
             ),
-            'sample-02' => array(
-                'url'           => '%2$s/lib/assets/images/headers/sample.png',
-                'thumbnail_url' => '%2$s/lib/assets/images/headers/sample-thumb.png',
-                'description'   => __( 'Sample Two', 'mmaestro' )
+            'header-02' => array(
+                'url'           => '%2$s/lib/assets/images/headers/header-02.jpg',
+                'thumbnail_url' => '%2$s/lib/assets/images/headers/header-02-thumb.jpg',
+                'description'   => __( 'The Tower', 'mmaestro' )
             )
         ) );
-    }
-
-    /**
-     * Register Default Backgrounds
-     */
-    function default_backgrounds( $backgrounds )
-    {
-        $_backgrounds = array(
-            'sample-01' => array(
-                'url'           => '%2$s/lib/assets/images/backgrounds/sample.png',
-                'thumbnail_url' => '%2$s/lib/assets/images/backgrounds/sample-thumb.png',
-            ),
-            'sample-02' => array(
-                'url'           => '%2$s/lib/assets/images/backgrounds/sample.png',
-                'thumbnail_url' => '%2$s/lib/assets/images/backgrounds/sample-thumb.png',
-            )
-        );
-
-        return array_merge( $backgrounds, $_backgrounds );
     }
 
     /**

@@ -27,7 +27,7 @@ final class MMaestro_Main
     {
         //* Add custom background
         add_theme_support( 'custom-background', array(
-            'default-color' => 'ffffff',
+            'default-color' => '3B3F41',
         ) );
 
         //* Add custom header
@@ -57,7 +57,7 @@ final class MMaestro_Main
      */
     function color_primary( $hex )
     {
-        return $hex ? $hex : '929292';
+        return $hex ? $hex : '555';
     }
 
 }
