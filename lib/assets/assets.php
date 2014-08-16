@@ -41,9 +41,9 @@ final class MMaestro_Assets
     {
         wp_dequeue_style( 'stargazer-fonts' );
 
-        $open_sans   = 'Open+Sans:300,400,600,700';
-        $droid_serif = 'Droid+Serif:400,700,400italic,700italic';
-        wp_enqueue_style( 'mmaestro-fonts', "//fonts.googleapis.com/css?family={$open_sans}|{$droid_serif}" );
+        $open_sans = 'Open+Sans:400,700';
+        $raleway   = 'Raleway:200,300,400,500';
+        wp_enqueue_style( 'mmaestro-fonts', "//fonts.googleapis.com/css?family={$open_sans}|{$raleway}" );
     }
 
     /**

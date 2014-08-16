@@ -22,61 +22,63 @@
 
 /* ====== Primary Font ====== */
 
-/*.font-primary,*/
-/*body,*/
-/*input,*/
-/*textarea,*/
-/*.label-checkbox,*/
-/*.label-radio,*/
-/*.required,*/
-/*#site-description,*/
-/*#reply-title small {*/
-/*font-family: 'Droid Serif', 'Lora', 'Georgia', serif;*/
-/*}*/
+.font-primary,
+body,
+input,
+textarea,
+.label-checkbox,
+.label-radio,
+.required,
+#site-description,
+#reply-title small {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 400;
+}
 
 /* ====== Secondary Font ====== */
 
-/*.font-secondary,*/
-/*dt,*/
-/*th,*/
-/*legend,*/
-/*label,*/
-/*input[type="submit"],*/
-/*input[type="reset"],*/
-/*input[type="button"],*/
-/*button,*/
-/*select,*/
-/*option,*/
-/*.wp-caption-text,*/
-/*.gallery-caption,*/
-/*.mejs-controls,*/
-/*.wp-playlist-item-meta,*/
-/*.entry-byline,*/
-/*.entry-footer,*/
-/*.chat-author cite,*/
-/*.chat-author,*/
-/*.comment-meta,*/
-/*.menu,*/
-/*.breadcrumb-trail,*/
-/*.media-info .prep,*/
-/*.comment-reply-link,*/
-/*.comment-reply-login,*/
-/*.clean-my-archives .day,*/
-/*.whistle-title {*/
-/*font-family:  'Open Sans', Arial, sans-serif;*/
-/*}*/
+.font-secondary,
+dt,
+th,
+legend,
+label,
+input[type="submit"],
+input[type="reset"],
+input[type="button"],
+button,
+select,
+option,
+.wp-caption-text,
+.gallery-caption,
+.mejs-controls,
+.wp-playlist-item-meta,
+.entry-byline,
+.entry-footer,
+.chat-author cite,
+.chat-author,
+.comment-meta,
+.menu,
+.breadcrumb-trail,
+.media-info .prep,
+.comment-reply-link,
+.comment-reply-login,
+.clean-my-archives .day,
+.whistle-title {
+    font-family: 'Open Sans', 'Helvetica Neue', Helvetica, sans-serif;
+}
 
 /* ====== Headlines Font ====== */
 
-/*.font-headlines,*/
-/*h1,*/
-/*h2,*/
-/*h3,*/
-/*h4,*/
-/*h5,*/
-/*h6 {*/
-/*font-family:  'Open Sans', Arial, sans-serif;*/
-/*}*/
+.font-headlines,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Raleway', 'Helvetica Neue', Helvetica, sans-serif;
+    font-weight: 500;
+}
 
 /**
  * 2.2 - Color Definitions
@@ -90,284 +92,368 @@
  * Fun Zone: The colors below are safe to overwrite depending on what you need to do.  Have at it!
  */
 
-/* ====== color: #656565 ====== */
+/* ====== color: #444 ====== */
 
-/*body,*/
-/*.media-shortcode-extend .media-info,*/
-/*.wp-playlist-dark .wp-playlist-item {*/
-/*color: #656565;*/
-/*}*/
+body,
+.media-shortcode-extend .media-info,
+.wp-playlist-dark .wp-playlist-item {
+    color: #444;
+}
 
-/* ====== border-color: #e3e3e3 ====== */
+#footer {
+    color: #666;
+}
 
-/*h1,*/
-/*h2,*/
-/*hr,*/
-/*code,*/
-/*pre,*/
-/*.form-allowed-tags code,*/
-/*fieldset,*/
-/*legend,*/
-/*input,*/
-/*select,*/
-/*textarea,*/
-/*.gallery .gallery-icon a img,*/
-/*.avatar,*/
-/*.display-header-text #header,*/
-/*.entry,*/
-/*.format-chat .chat-author,*/
-/*.media-info li,*/
-/*.wp-playlist-tracks,*/
-/*.wp-playlist-item,*/
-/*.loop-description,*/
-/*.loop-pagination,*/
-/*.loop-nav,*/
-/*#sidebar-subsidiary,*/
-/*li.ping,*/
-/*.comment-content,*/
-/*.clean-my-archives .day-duplicate .day,*/
-/*.whistles-tabs-nav li a,*/
-/*.whistles-tabs .whistles-tabs-nav li a:hover,*/
-/*.whistles-tabs .whistles-tabs-nav li a:focus,*/
-/*.whistles-tabs .whistles-tabs-wrap,*/
-/*.whistles-toggle .whistle-title,*/
-/*.whistles-accordion .whistle-title,*/
-/*.whistles-toggle .whistle-content,*/
-/*.whistles-accordion .whistle-content {*/
-/*border-color: #e3e3e3;*/
-/*}*/
+/* ====== border-color: #eee ====== */
+
+h1,
+h2,
+hr,
+code,
+pre,
+.form-allowed-tags code,
+fieldset,
+legend,
+input,
+select,
+textarea,
+.gallery .gallery-icon a img,
+.avatar,
+.display-header-text #header,
+.entry,
+.format-chat .chat-author,
+.media-info li,
+.wp-playlist-tracks,
+.wp-playlist-item,
+.loop-description,
+.loop-pagination,
+.loop-nav,
+#sidebar-subsidiary,
+li.ping,
+.comment-content,
+.clean-my-archives .day-duplicate .day,
+.whistles-tabs-nav li a,
+.whistles-tabs .whistles-tabs-nav li a:hover,
+.whistles-tabs .whistles-tabs-nav li a:focus,
+.whistles-tabs .whistles-tabs-wrap,
+.whistles-toggle .whistle-title,
+.whistles-accordion .whistle-title,
+.whistles-toggle .whistle-content,
+.whistles-accordion .whistle-content {
+    border-color: #EEE;
+}
 
 /* ====== color: #555 ====== */
 
-/*h6,*/
-/*.whistles-tabs .whistles-tabs-nav li[aria-selected="true"] a,*/
-/*.whistles-tabs .whistles-tabs-nav li a:hover,*/
-/*.whistles-tabs .whistles-tabs-nav li a:focus,*/
-/*.whistles-toggle .whistle-title:hover,*/
-/*.whistles-toggle .whistle-title:focus,*/
-/*.whistles-toggle .whistle-title[aria-selected="true"],*/
-/*.whistles-accordion .whistle-title:hover,*/
-/*.whistles-accordion .whistle-title[aria-selected="true"],*/
-/*label:hover,*/
-/*label:focus,*/
-/*label.focus,*/
-/*.loop-pagination .current {*/
-/*color: #555;*/
-/*}*/
+h6,
+.whistles-tabs .whistles-tabs-nav li[aria-selected="true"] a,
+.whistles-tabs .whistles-tabs-nav li a:hover,
+.whistles-tabs .whistles-tabs-nav li a:focus,
+.whistles-toggle .whistle-title:hover,
+.whistles-toggle .whistle-title:focus,
+.whistles-toggle .whistle-title[aria-selected="true"],
+.whistles-accordion .whistle-title:hover,
+.whistles-accordion .whistle-title[aria-selected="true"],
+label:hover,
+label:focus,
+label.focus,
+.loop-pagination .current {
+    color: #555;
+}
 
-/* ====== color: #858585 ====== */
+/* ====== color: #777 ====== */
 
-/*caption,*/
-/*td,*/
-/*label,*/
-/*input,*/
-/*textarea,*/
-/*select,*/
-/*.gallery .gallery-caption,*/
-/*.page-links,*/
-/*.loop-pagination,*/
-/*.loop-nav,*/
-/*.widget_recent_entries .post-date,*/
-/*.widget-entry-views .entry-view-count,*/
-/*.gallery-count,*/
-/*.comment-respond .must-log-in,*/
-/*.comment-respond .logged-in-as,*/
-/*.comments-closed,*/
-/*.comment-notes,*/
-/*.form-allowed-tags,*/
-/*.whistles-tabs-nav li a,*/
-/*.whistles-toggle .whistle-title,*/
-/*.whistles-accordion .whistle-title,*/
-/*.wp-playlist-dark .wp-playlist-item-meta {*/
-/*color: #858585;*/
-/*}*/
+caption,
+td,
+label,
+input,
+textarea,
+select,
+.gallery .gallery-caption,
+.page-links,
+.loop-pagination,
+.loop-nav,
+.widget_recent_entries .post-date,
+.widget-entry-views .entry-view-count,
+.gallery-count,
+.comment-respond .must-log-in,
+.comment-respond .logged-in-as,
+.comments-closed,
+.comment-notes,
+.form-allowed-tags,
+.whistles-tabs-nav li a,
+.whistles-toggle .whistle-title,
+.whistles-accordion .whistle-title,
+.wp-playlist-dark .wp-playlist-item-meta {
+    color: #777;
+}
 
-/* ====== background: #252525 ====== */
+/* ====== background: #2c2f31 ====== */
 
-/*#menu-primary,*/
-/*#menu-primary .search-form > div,*/
-/*#footer,*/
-/*.audio-shortcode-wrap,*/
-/*.media-shortcode-extend .media-info,*/
-/*.media-info-toggle,*/
-/*.entry-content .media-info-toggle,*/
-/*.media-info-toggle:hover,*/
-/*.media-info-toggle:focus,*/
-/*.wp-audio-shortcode.mejs-container,*/
-/*.mejs-controls,*/
-/*.mejs-volume-button .mejs-volume-slider,*/
-/*.mejs-overlay-play .mejs-overlay-button::after,*/
-/*.mejs-time-rail .mejs-time-float,*/
-/*.wp-playlist-dark {*/
-/*background: #252525;*/
-/*}*/
+#menu-primary,
+#menu-primary .search-form > div,
+#footer,
+.audio-shortcode-wrap,
+.media-shortcode-extend .media-info,
+.media-info-toggle,
+.entry-content .media-info-toggle,
+.media-info-toggle:hover,
+.media-info-toggle:focus,
+.wp-audio-shortcode.mejs-container,
+.mejs-controls,
+.mejs-volume-button .mejs-volume-slider,
+.mejs-overlay-play .mejs-overlay-button::after,
+.mejs-time-rail .mejs-time-float,
+.wp-playlist-dark {
+    background: #2C2F31;
+}
 
 /* ====== background: transparent ====== */
 
-/*hr,*/
-/*.mejs-container,*/
-/*.mejs-embed,*/
-/*.mejs-embed body,*/
-/*.mejs-overlay-button,*/
-/*.mejs-controls > .mejs-button button:hover,*/
-/*.mejs-controls > .mejs-button button:focus,*/
-/*#menu-primary .menu-toggle button,*/
-/*#menu-primary .menu-toggle button:hover,*/
-/*#menu-primary .menu-toggle button:focus,*/
-/*#menu-primary .search-toggle,*/
-/*#menu-primary .search-toggle:hover,*/
-/*#menu-primary .search-toggle:focus  {*/
-/*background: transparent;*/
-/*}*/
+hr,
+.mejs-container,
+.mejs-embed,
+.mejs-embed body,
+.mejs-overlay-button,
+.mejs-controls > .mejs-button button:hover,
+.mejs-controls > .mejs-button button:focus,
+#menu-primary .menu-toggle button,
+#menu-primary .menu-toggle button:hover,
+#menu-primary .menu-toggle button:focus,
+#menu-primary .search-toggle,
+#menu-primary .search-toggle:hover,
+#menu-primary .search-toggle:focus {
+    background: transparent;
+}
 
 /* ====== background: #fff ====== */
 
-/*html,*/
-/*#container > .wrap,*/
-/*#reply-title small a,*/
-/*.whistles-tabs .whistles-tabs-nav li[aria-selected="true"] a {*/
-/*background: #fff;*/
-/*}*/
+html,
+#container > .wrap,
+#reply-title small a,
+.whistles-tabs .whistles-tabs-nav li[aria-selected="true"] a {
+    background: #FFF;
+}
 
 /* ====== Other colors ====== */
 
-/*h1 { color: #303030; }*/
-/*h2 { color: #353535; }*/
-/*h3 { color: #404040; }*/
-/*h4 { color: #454545; }*/
-/*h5 { color: #505050; }*/
+h1 {
+    color: #555;
+}
 
-/*code {*/
-/*color:        #000;*/
-/*background:   #f6f6f6;*/
-/*}*/
+h2 {
+    color: #555;
+}
 
-/*tr,*/
-/*thead,*/
-/*tfoot,*/
-/*td { border-color: #f3f3f3; }*/
+h3 {
+    color: #555;
+}
 
-/*td { background: #fcfcfc; }*/
+h4 {
+    color: #555;
+}
 
-/*input[type="number"],*/
-/*input[type="date"],*/
-/*input[type="datetime"],*/
-/*input[type="datetime-local"],*/
-/*input[type="email"],*/
-/*input[type="month"],*/
-/*input[type="password"],*/
-/*input[type="search"],*/
-/*input[type="tel"],*/
-/*input[type="text"],*/
-/*input[type="time"],*/
-/*input[type="url"],*/
-/*input[type="week"],*/
-/*textarea,*/
-/*select {*/
-/*background: #f3f3f3;*/
-/*border-color: #e3e3e3;*/
-/*}*/
+h5 {
+    color: #555;
+}
 
-/*input[type="date"]:focus,*/
-/*input[type="datetime"]:focus,*/
-/*input[type="datetime-local"]:focus,*/
-/*input[type="email"]:focus,*/
-/*input[type="month"]:focus,*/
-/*input[type="number"]:focus,*/
-/*input[type="password"]:focus,*/
-/*input[type="search"]:focus,*/
-/*input[type="tel"]:focus,*/
-/*input[type="text"]:focus,*/
-/*input[type="time"]:focus,*/
-/*input[type="url"]:focus,*/
-/*input[type="week"]:focus,*/
-/*textarea:focus,*/
-/*select:focus {*/
-/*color:        #555;*/
-/*background:   #efefef;*/
-/*border-color: #d3d3d3;*/
-/*}*/
+code {
+    color: #222;
+    background: #FFF198;
+}
 
-/*.wp-caption .wp-caption-text {*/
-/*color:      #e3e3e3;*/
-/*background: rgba( 0, 0, 0, 0.75 );*/
-/*}*/
+tr,
+thead,
+tfoot,
+td {
+    border-color: #EEE;
+}
 
-/*.gallery .gallery-icon a img { background: #f9f9f9; }*/
+td {
+    background: transparent;
+}
 
-/*.gallery-icon a:hover img,*/
-/*.galley-icon a:focus img { background: #f3f3f3; }*/
+input[type="number"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="password"],
+input[type="search"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"],
+textarea,
+select {
+    background: #FFF;
+    border-color: #E6E6E6;
+}
 
-/*#menu-primary .menu-toggle button { color: rgba( 255, 255, 255, 0.75 ); }*/
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="search"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus,
+textarea:focus,
+select:focus {
+    color: #777;
+    background: transparent;
+    border-color: #D6D6D6;
+}
 
-/*#menu-primary li a,*/
-/*#menu-secondary li li a,*/
-/*#menu-primary .menu-toggle button:hover,*/
-/*#menu-primary .menu-toggle button:focus { color: rgba( 255, 255, 255, 0.75 ); }*/
+.wp-caption .wp-caption-text {
+    color: #E3E3E3;
+    background: rgba(0, 0, 0, 0.75);
+}
+
+.gallery .gallery-icon a img {
+    background: #FFF;
+    border-color: #E6E6E6;
+}
+
+.gallery-icon a:hover img,
+.galley-icon a:focus img {
+    background: #FFF;
+    border-color: #D6D6D6;
+}
+
+#menu-primary .menu-toggle button {
+    color: rgba(255, 255, 255, 0.75);
+}
+
+#menu-primary li a,
+#menu-secondary li li a,
+#menu-primary .menu-toggle button:hover,
+#menu-primary .menu-toggle button:focus {
+    color: rgba(255, 255, 255, 0.75);
+}
 
 @media only screen and (max-width: 799px) {
 
-    /*#menu-secondary .wrap,*/
-    /*#menu-primary .search-form > div { background: #1f1f1f; }*/
-    /*#menu-primary li a,*/
-    /*#menu-secondary li a,*/
-    /*#menu-secondary .menu-toggle button {*/
-    /*color:        rgba( 255, 255, 255, 0.75 );*/
-    /*background:   #1f1f1f;*/
-    /*border-color: #1c1c1c;*/
-    /*}*/
-    /*#menu-primary li a:hover,*/
-    /*#menu-secondary li a:hover,*/
-    /*#menu-primary li a:focus,*/
-    /*#menu-secondary li a:focus {*/
-    /*color: #fff;*/
-    /*background: #191919;*/
-    /*}*/
+    #menu-secondary .wrap,
+    #menu-primary .search-form > div {
+        background: #1F1F1F;
+    }
+
+    #menu-primary li a,
+    #menu-secondary li a,
+    #menu-secondary .menu-toggle button {
+        color: rgba(255, 255, 255, 0.75);
+        background: #2C2F31;
+        border-color: #282A2C;
+    }
+
+    #menu-secondary .menu-toggle button {
+        color: #AAA;
+        background: #F3F3F3;
+    }
+
+    #menu-primary li a:hover,
+    #menu-secondary li a:hover,
+    #menu-primary li a:focus,
+    #menu-secondary li a:focus {
+        color: #FFF;
+        background: #282A2C;
+    }
 }
 
-/*#site-title a:hover,*/
-/*#site-title a:focus { border-bottom-color: #d3d3d3; }*/
+#site-title a:hover,
+#site-title a:focus {
+    border-bottom-color: #D6D6D6;
+}
 
-/*.entry-title,*/
-/*.entry-title a { color: #252525; }*/
+.entry-title,
+.entry-title a {
+    color: #555;
+}
 
-/*.entry-byline,*/
-/*.entry-footer,*/
-/*.comment-meta,*/
-/*.wp-playlist-item-meta { color: rgba( 85, 85, 85, 0.75 ); }*/
+.entry-byline,
+.entry-footer,
+.comment-meta,
+.wp-playlist-item-meta {
+    color: rgba(85, 85, 85, 0.75);
 
-/*.image-sizes .sep { color: #e3e3e3; }*/
+}
 
-/*.format-chat .chat-speaker-1 .chat-author,*/
-/*.format-chat .chat-speaker-11 .chat-author { color: #3498db; }*/
-/*.format-chat .chat-speaker-2 .chat-author,*/
-/*.format-chat .chat-speaker-12 .chat-author  { color: #f1c40f; }*/
-/*.format-chat .chat-speaker-3 .chat-author,*/
-/*.format-chat .chat-speaker-13 .chat-author  { color: #e74c3c; }*/
-/*.format-chat .chat-speaker-4 .chat-author,*/
-/*.format-chat .chat-speaker-14 .chat-author  { color: #2ecc71; }*/
-/*.format-chat .chat-speaker-5 .chat-author,*/
-/*.format-chat .chat-speaker-15 .chat-author  { color: #f39c12; }*/
-/*.format-chat .chat-speaker-6 .chat-author,*/
-/*.format-chat .chat-speaker-16 .chat-author  { color: #9b59b6; }*/
-/*.format-chat .chat-speaker-7 .chat-author,*/
-/*.format-chat .chat-speaker-17 .chat-author  { color: #95a5a6; }*/
-/*.format-chat .chat-speaker-8 .chat-author,*/
-/*.format-chat .chat-speaker-18 .chat-author  { color: #16a085; }*/
-/*.format-chat .chat-speaker-9 .chat-author,*/
-/*.format-chat .chat-speaker-19 .chat-author  { color: #e67e22; }*/
-/*.format-chat .chat-speaker-10 .chat-author,*/
-/*.format-chat .chat-speaker-20 .chat-author  { color: #1abc9c; }*/
+.image-sizes .sep {
+    color: #E6E6E6;
+}
 
-/*.loop-description {*/
-/*color:      #757575;*/
-/*background: #f9f9f9;*/
-/*}*/
+.format-chat .chat-speaker-1 .chat-author,
+.format-chat .chat-speaker-11 .chat-author {
+    color: #3498DB;
+}
 
-/*li.ping,*/
-/*.comment-content { background: #f9f9f9; }*/
+.format-chat .chat-speaker-2 .chat-author,
+.format-chat .chat-speaker-12 .chat-author {
+    color: #F1C40F;
+}
 
-/*#footer a { color: rgba( 255, 255, 255, 0.75 ); }*/
+.format-chat .chat-speaker-3 .chat-author,
+.format-chat .chat-speaker-13 .chat-author {
+    color: #E74C3C;
+}
+
+.format-chat .chat-speaker-4 .chat-author,
+.format-chat .chat-speaker-14 .chat-author {
+    color: #2ECC71;
+}
+
+.format-chat .chat-speaker-5 .chat-author,
+.format-chat .chat-speaker-15 .chat-author {
+    color: #F39C12;
+}
+
+.format-chat .chat-speaker-6 .chat-author,
+.format-chat .chat-speaker-16 .chat-author {
+    color: #9B59B6;
+}
+
+.format-chat .chat-speaker-7 .chat-author,
+.format-chat .chat-speaker-17 .chat-author {
+    color: #95A5A6;
+}
+
+.format-chat .chat-speaker-8 .chat-author,
+.format-chat .chat-speaker-18 .chat-author {
+    color: #16A085;
+}
+
+.format-chat .chat-speaker-9 .chat-author,
+.format-chat .chat-speaker-19 .chat-author {
+    color: #E67E22;
+}
+
+.format-chat .chat-speaker-10 .chat-author,
+.format-chat .chat-speaker-20 .chat-author {
+    color: #1ABC9C;
+}
+
+.loop-description {
+    color: #444;
+    background: #F9F9F9;
+    border-color: #F9F9F9;
+}
+
+li.ping,
+.comment-content {
+    background: transparent;
+}
+
+#footer a {
+    color: rgba(255, 255, 255, 0.75);
+}
 
 /*.clean-my-archives .comments-number { color: #aaa; }*/
 
@@ -415,31 +501,46 @@
 
 @media only screen and (min-width: 800px) {
 
-    /*.menu li > ul::before {*/
-    /*border-right-color:  transparent;*/
-    /*border-bottom-color: #252525;*/
-    /*border-left-color:   transparent;*/
-    /*}*/
-    /*.menu li li > ul::before {*/
-    /*border-top-color:    transparent;*/
-    /*border-bottom-color: transparent;*/
-    /*}*/
-    /*.ltr .menu li li > ul::before { border-right-color: #252525; }*/
-    /*.rtl .menu li li > ul::before { border-left-color:  #252525; }*/
-    /*#menu-primary   li li a,*/
-    /*#menu-secondary li li a {*/
-    /*background:   #1f1f1f;*/
-    /*border-color: #1d1d1d;*/
-    /*}*/
-    /*#menu-primary   ul ul li a:hover,*/
-    /*#menu-secondary ul ul li a:hover,*/
-    /*#menu-primary   ul ul li a:focus,*/
-    /*#menu-secondary ul ul li a:focus { background: #191919; }*/
-    /*#menu-primary .search-form .search-toggle::before {*/
-    /*color: rgba( 255, 255, 255, 0.75 );*/
-    /*}*/
-    /*#menu-primary .search-toggle:hover::before,*/
-    /*#menu-primary .search-toggle:focus::before { color: #fff; }*/
+    .menu li > ul::before {
+        border-right-color: transparent;
+        border-bottom-color: #282A2C;
+        border-left-color: transparent;
+    }
+
+    .menu li li > ul::before {
+        border-top-color: transparent;
+        border-bottom-color: transparent;
+    }
+
+    .ltr .menu li li > ul::before {
+        border-right-color: #282A2C;
+    }
+
+    .rtl .menu li li > ul::before {
+        border-left-color: #282A2C;
+    }
+
+    #menu-primary li li a,
+    #menu-secondary li li a {
+        background: #2C2F31;
+        border-color: #282A2C;
+    }
+
+    #menu-primary ul ul li a:hover,
+    #menu-secondary ul ul li a:hover,
+    #menu-primary ul ul li a:focus,
+    #menu-secondary ul ul li a:focus {
+        background: #282A2C;
+    }
+
+    #menu-primary .search-form .search-toggle::before {
+        color: rgba(255, 255, 255, 0.75);
+    }
+
+    #menu-primary .search-toggle:hover::before,
+    #menu-primary .search-toggle:focus::before {
+        color: #FFF;
+    }
 
 }
 
