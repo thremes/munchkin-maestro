@@ -36,13 +36,13 @@ final class MMaestro_Main
         ) );
 
         //* Overrides the color primary
-        add_filter( 'theme_mod_color_primary', array( __CLASS__, 'color_primary' ) );
+        add_filter( 'theme_mod_color_primary', array( $this, 'color_primary' ) );
     }
 
     /**
      * Get the Singleton instance
      */
-    function get_instance()
+    static function get_instance()
     {
         static $instance;
         if ( !isset( $instance ) ) {

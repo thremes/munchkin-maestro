@@ -16,7 +16,7 @@ final class MMaestro_Cleanup
     /**
      * Get the Singleton instance
      */
-    function get_instance()
+    static function get_instance()
     {
         static $instance;
         if ( !isset( $instance ) ) {
