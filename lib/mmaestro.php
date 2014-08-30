@@ -3,14 +3,6 @@
 //* Load main functionality
 add_action( 'after_setup_theme', array( 'MMaestro_Main', 'get_instance' ) );
 
-//* Load cleanup functionality
-require_once( 'mmaestro.cleanup.php' );
-add_action( 'after_setup_theme', array( 'MMaestro_Cleanup', 'get_instance' ), 15 );
-
-//* Load later functionality
-require_once( 'mmaestro.later.php' );
-add_action( 'after_setup_theme', array( 'MMaestro_Later', 'get_instance' ), 15 );
-
 //* Load assets functionality
 require_once( 'assets/assets.php' );
 add_action( 'after_setup_theme', array( 'MMaestro_Assets', 'get_instance' ) );
@@ -32,7 +24,7 @@ final class MMaestro_Main
 
         //* Add custom header
         add_theme_support( 'custom-header', array(
-            'default-image' => '',
+            'default-image' => '%2$s/lib/assets/images/headers/header-01.jpg',
         ) );
 
         //* Overrides the color primary
