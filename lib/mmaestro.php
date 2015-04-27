@@ -24,7 +24,7 @@ final class MMaestro_Main
 
         //* Add custom header
         add_theme_support( 'custom-header', array(
-            'default-image' => '%2$s/lib/assets/images/headers/header-01.jpg',
+            'default-image' => trailingslashit( get_stylesheet_directory_uri() ) . 'lib/assets/images/headers/header-01.jpg',
         ) );
 
         //* Overrides the color primary
@@ -45,7 +45,11 @@ final class MMaestro_Main
     }
 
     /**
-     * Color Primary
+     * The color primary
+     *
+     * @param $hex
+     *
+     * @return string
      */
     function color_primary( $hex )
     {
