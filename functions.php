@@ -19,7 +19,7 @@ require_once( 'lib/mmaestro.php' );
  * as usual. Once some features are done, tested and stable enough,
  * move them to a more apropriate functionality from file loaded right before.
  */
-add_action( 'genesis_setup', 'mmaestro_setup' );
+add_action( 'after_setup_theme', 'mmaestro_setup' );
 
 /**
  * The Custom Theme Setup
